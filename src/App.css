@@ -1,0 +1,28 @@
+body {
+  text-align: left;
+  background-color: rgb(41, 39, 65);
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  background-image: url("../public/static/pngwing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: brightness(25%) blur(16px);
+}
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.mainWrap {
+  height: 100vh;
+  background-image: url("../public/static/Hero-Image1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+

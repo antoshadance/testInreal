@@ -1,0 +1,147 @@
+.servicePage {
+    width: 75%;
+    margin: auto;
+}
+
+.servicePage * {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.serviceDesc {
+    width: 50%;
+}
+
+.servicePage .serviceTitle {
+    font-size: 64px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(71, 35, 214);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.servicePage .description {
+    font-size: 36px;
+    text-align: justify;
+    line-height: 60px;
+}
+
+.servicePage section {
+    font-size: 36px;
+    line-height: 60px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.servicePage h2 {
+    font-size: 48px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.servicePage h3 {
+    font-size: 36px;
+    margin: 25px auto;
+}
+
+.servicePage .emphasize {
+    background-color: rgb(71, 35, 214);
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.servicePage .liRighter {
+    padding-left: 2.7rem;
+    line-height: 16px;
+}
+
+.servicePage .liDesc {
+    padding-left: 2rem;
+    line-height: 32px;
+}
+
+.servicePage .bigLi {
+    font-size: 44px;
+}
+
+.servicePage ul {
+    line-height: 75px;
+}
+
+.servicePage li {
+    font-size: 32px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.servicePage article {
+    margin-bottom: 50px;
+}
+
+.servicePage .listSecondary {
+    padding-left: 5%;
+}
+
+.servicePage table {
+    border: 1px solid ;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+.servicePage td {
+    border: 1px solid ;
+    padding: 10px;
+    font-size: 20px;
+    text-align: start;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .servicePage {
+        width: 90%;
+    }
+
+    .serviceDesc {
+        width: 100%;
+    }
+
+    .servicePage .serviceTitle {
+        font-size: 40px;
+        line-height: 48px;
+        width: 120%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .servicePage section {
+        font-size: 20px;
+        text-align: left;
+        line-height: 32px;
+    }
+
+    .servicePage h2 {
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .servicePage ul {
+        position:static;
+        background-color: transparent;
+        height: fit-content;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .servicePage li {
+        text-align: left;
+        font-size: 20px;
+        line-height: 2rem;
+
+    }
+}

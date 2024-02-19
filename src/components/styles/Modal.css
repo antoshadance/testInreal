@@ -1,0 +1,69 @@
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 1);
+    margin: 25vh auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 33%;
+    border-radius: 5px;
+}
+
+.modal-input {
+    font-family: 'Montseratt', sans-serif;
+    font-size: 16px;
+    margin: 15px auto;
+    background-color: transparent;
+    width: 100%;
+    line-height: 24px;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 5px;
+    resize: none;
+}
+
+.modal-input::placeholder {
+    color: rgba(0,0,0,0.4);
+    font-family: "Montserrat", sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-button {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.2);
+    height: 50px;
+    width: 50%;
+    font-size: 16px;
+    cursor:pointer;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.modal-button:hover {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:white;
+    transition: all .5s;
+}
+
+@media screen and (max-width: 1024px) {
+    .modal-content {
+        width: 75%;
+    }
+}

@@ -1,0 +1,193 @@
+.productsPage {
+    padding-top: 80px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.productsPage * {
+    font-weight: 500;
+}
+
+.product {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.product .slogan {
+    font-size: 48px;
+}
+
+.product .productTitle {
+    font-size: 64px;
+    margin-bottom: 32px;
+    background-color: rgb(71, 35, 214);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.productsPage section {
+    line-height: 60px;
+}
+
+.product .brief {
+    margin: 50px 0;
+    font-size: 36px;
+    text-align: justify;
+}
+
+.productsPage h2 {
+    font-size: 48px;
+    margin: 25px auto;
+}
+
+
+.productsPage h3 {
+    font-size: 36px;
+    margin: 25px auto;
+}
+
+.productsPage span {
+    font-size: 36px;
+    line-height: 60px;
+    text-align: justify;
+}
+
+.productDesc {
+    width: 50%;
+}
+
+.productsPage ul {
+    line-height: 75px;
+}
+
+.productsPage .subUl {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.productsPage li {
+    font-size: 32px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.productsPage .subLi {
+    padding-left: 25px;
+}
+
+.productsPage td {
+    border: 1px solid ;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.productsPage table {
+    border: 1px solid ;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .productsPage .productTitle {
+        margin-top: 50px;
+    }
+    
+    .productsPage .h1main {
+        font-size: 28px;
+    }
+
+    .productsPage ul {
+        position:static;
+        background-color: transparent;
+        height: fit-content;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .productsPage .subUl {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .productsPage li {
+        font-size: 18px;
+    }
+
+    
+    .productsPage .productDesc {
+        width: 100%;
+    }
+
+    .productsPage h1 {
+        font-size: 28px;
+    }
+
+    .productsPage h2 {
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .productsPage h3 {
+        font-size: 24px;
+    }
+
+    .productsPage h4 {
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .productsPage span {
+        font-size: 18px;
+        text-align: justify;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    
+
+    .productsPage td {
+        font-size: 16px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .productsPage {
+        width: 90vw;
+        margin: auto;
+        padding-top: 0;
+    }
+
+    .productDesc {
+        width: 100%;
+    }
+
+    .productsPage .productTitle {
+        font-size: 48px;
+    }
+
+    .productsPage h3 {
+        font-size: 30px;
+    }
+
+    .productsPage .slogan {
+        font-size: 32px;
+        text-align:justify;
+    }
+
+    .productsPage .brief {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .productsPage span {
+        text-align: justify;
+        line-height: 2rem;
+    }
+}
