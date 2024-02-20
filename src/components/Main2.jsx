@@ -6,7 +6,7 @@ export default function Main2() {
         <div className="homePage">
             <article className='homePage-content grid-layout'>
                 <section className='company-about'>
-                    <h1 className='grid-item grid-item1'>IT-сервисы для бизнеса</h1>
+                    <h1 className='grid-items grid-item1'>IT-сервисы для бизнеса</h1>
                         <ul className='grid-item grid-item2'>
                             <li>Разработка мобильных приложений, сервисов для 1С</li>
                             <li>Сопровождение продуктов 1С</li>
