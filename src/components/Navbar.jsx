@@ -11,10 +11,10 @@ export default function Navbar () {
        setModalDisplay(false)
     }
 
-    function handleOpenModal() {
-        window.scrollTo(0,0)
-        setModalDisplay(true);
-    }
+    // function handleOpenModal() {
+    //     window.scrollTo(0,0)
+    //     setModalDisplay(true);
+    // }
 
     function handleSubmit() {
         console.log("Form submitted")
@@ -36,9 +36,9 @@ export default function Navbar () {
                 <li>
                     <Link to={"/about"} onClick={()=>{handleOuterClick()}}>О нас</Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link onClick={handleOpenModal}>Обратная связь</Link>
-                </li>
+                </li> */}
             </ul>
             <div className='modal' id="modalOut" onClick={handleOuterClick} style={modalDisplay?{display:"block"}:{display: "none"}}>
                 <div className='modal-content' onClick={(e)=>{e.stopPropagation()}}>
